@@ -9,24 +9,27 @@
   padding: 10px 70px 10px 70px;
 }
 
-.Navigation ul {
-  float: right;
+.Navigation ul{
   list-style-type: none;
+  float: right;
+}
+
+.Navigation-inline {
   margin: 0;
   padding: 0 10px 0 0;
   overflow: hidden;
   /* border: 1px solid white; */
 }
 
-.Navigation ul li{
+.Navigation-inline li{
   float: left;
   cursor: pointer;
 }
-.Navigation ul li:hover{
+.Navigation-inline li:hover{
   color: #0095d1;
 }
 
-.Navigation ul li p{
+.Navigation-inline li p{
   display: block;
   text-align: center;
   padding: 16px;
@@ -34,12 +37,25 @@
   font-weight: 600;
 }
 
+.Navigation-toggle{
+  height: 6vmin;
+  float: right;
+  display: none;
+  margin: 1vh 2vh 1vh 1vh;
+  border: 1px solid #0095d1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Navigation-hidden {
+  display: none;
+}
+
 .active{
   color: #0095d1;
 }
 
 .Home-details{
-  padding: 100px 90vh 100px 70px;
+  padding: 120px 120vh 100px 70px;
   /* border: 1px solid white; */
 }
 
@@ -76,58 +92,151 @@
   font-size: 18px;
 }
 
-@media only screen and (max-width: 480px) {
-  /* styles for devices with a maximum screen width of 480px */
+@media only screen and (max-width: 380px) {
+  /* xsmall-sized screens */
   .Navigation{
     padding: 10px 10px 10px 10px;
   }
-  .Navigation ul {
+  .Navigation-inline{
     display: none;
   }
+  .Navigation-toggle{
+    display: block;
+  }
   .Home-details{
-    padding: 10px 15vh 10px 10px;
+    padding: 40px 15vh 10px 10px;
   }
   .Home-hello{
     font-size: 15px;
   }
   .Home-name{
-    font-size: 25px;
+    font-size: 20px;
   }
   .Home-and, .Home-designation{
     font-size: 10px;
   }  
   .Home-description{
     font-size: 10px;
+  }
+  .Home-social-icons span{
+    margin: 1px;
+  }  
+}
+
+@media only screen and (min-width: 380px) and (max-width: 600px) {
+  /* small-sized screens */
+  .Navigation{
+    padding: 10px 20px 10px 20px;
+  }
+  .Navigation-inline{
+    display: none;
+  }
+  .Navigation-toggle{
+    display: block;
+  }
+  .Home-details{
+    padding: 60px 30vh 10px 20px;
+  }
+  .Home-hello{
+    font-size: 18px;
+  }
+  .Home-name{
+    font-size: 25px;
+  }
+  .Home-and, .Home-designation{
+    font-size: 12px;
+  }  
+  .Home-description{
+    font-size: 12px;
   }
   .Home-social-icons span{
     margin: 2px;
   }  
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1024px) {
-  /* show element on medium-sized screens */
+@media only screen and (min-width: 600px) and (max-width: 880px) {
+  /* medium-sized screens */
   .Navigation{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 30px 10px 30px;
   }
-  .Navigation ul {
+  .Navigation-inline{
     display: none;
   }
+  .Navigation-toggle{
+    display: block;
+  }
   .Home-details{
-    padding: 10px 20vh 10px 10px;
+    padding: 30px 50vh 10px 30px;
   }
   .Home-hello{
     font-size: 20px;
   }
   .Home-name{
-    font-size: 30px;
+    font-size: 25px;
   }
   .Home-and, .Home-designation{
     font-size: 15px;
-  }
+  }  
   .Home-description{
     font-size: 15px;
   }
   .Home-social-icons span{
     margin: 2px;
+  }  
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1024px) {
+  /* large-sized screens */
+  .Navigation{
+    padding: 10px 40px 10px 40px;
+  }
+  .Navigation-inline{
+    display: none;
+  }
+  .Navigation-toggle{
+    display: block;
+  }
+  .Home-details{
+    padding: 60px 80vh 10px 40px;
+  }
+  .Home-hello{
+    font-size: 20px;
+  }
+  .Home-name{
+    font-size: 25px;
+  }
+  .Home-and, .Home-designation{
+    font-size: 15px;
+  }  
+  .Home-description{
+    font-size: 15px;
+  }
+  .Home-social-icons span{
+    margin: 2px;
+  }  
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* xlarge-sized screens */
+  .Navigation{
+    padding: 10px 50px 10px 50px;
+  }
+  .Home-details{
+    padding: 70px 80vh 10px 50px;
+  }
+  .Home-hello{
+    font-size: 25px;
+  }
+  .Home-name{
+    font-size: 35px;
+  }
+  .Home-and, .Home-designation{
+    font-size: 20px;
+  }  
+  .Home-description{
+    font-size: 18px;
+  }
+  .Home-social-icons span{
+    margin: 5px;
   }  
 }

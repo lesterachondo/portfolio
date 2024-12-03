@@ -1,7 +1,6 @@
 import React from 'react'
-import logo from '../logo-transparent.png'
 import fb from '../fb-logo.png'
-import linkedin from '../linkedin-logo.png'
+import linkedIn from '../linkedin-logo.png'
 
 
 const Home = () => {
@@ -25,7 +24,7 @@ const Home = () => {
             </span>
             <span>
                 <a href={'https://www.linkedin.com/in/lester-achondo-773a7115b/'} target="_blank" >
-                    <img src={linkedin} />
+                    <img src={linkedIn} />
                 </a>
             </span>
         </div>
