@@ -14,7 +14,7 @@ const Home = () => {
             <br/>
             <span className='Home-and'>And I'm a </span><span className='Home-designation'>Web Developer</span>
         </p>
-        <p>
+        <p className='Home-description'>
             I am a Junior Web Developer with a strong passion for creating dynamic, user-friendly websites and web applications.
         </p>
         <div className='Home-social-icons'>

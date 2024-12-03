@@ -1,16 +1,10 @@
 body {
   height : 100vh;
-  background-color: #015b7f; /* For browsers that do not support gradients */
+  background-color: #0095d1; /* For browsers that do not support gradients */
   background-image: linear-gradient(#071724 40%,#0095d1);
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  /* margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
 }
 main{
   background-color: #081b29;
@@ -21,7 +15,18 @@ main{
   box-shadow: 0 0 50px 2px #0f1217;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+@media only screen and (max-width: 480px) {
+  /* styles for devices with a maximum screen width of 480px */
+  main{
+    margin: 5vh 3vh 0vh 3vh;
+    padding: 1vh 1vh 0vh 2vh;
+  }  
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  /* show element on medium-sized screens */
+  main{
+    margin: 10vh 10vh 0vh 10vh;
+    padding: 1vh 0vh 0vh 0vh;
+  }  
+}
