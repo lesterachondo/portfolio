@@ -9,7 +9,6 @@ function App() {
         <Header />
         <Home />
       </main>
-      {/* <h1>Hello Guys, I'm Lester</h1> */}
     </>
   );
 }

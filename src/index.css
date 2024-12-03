@@ -1,7 +1,7 @@
 body {
   height : 100vh;
-  background-color: #133E87; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#13161b 40%,#0f52ba);
+  background-color: #015b7f; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#071724 40%,#0095d1);
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 main{
-  background-color: #20242d;
+  background-color: #081b29;
   margin: 10vh 15vh 0vh 15vh;
   padding: 0vh 1vh 0vh 1vh;
   height: 80vh;

@@ -21,6 +21,10 @@
 
 .Navigation ul li{
   float: left;
+  cursor: pointer;
+}
+.Navigation ul li:hover{
+  color: #0095d1;
 }
 
 .Navigation ul li p{
@@ -28,6 +32,45 @@
   text-align: center;
   padding: 16px;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.active{
+  color: #0095d1;
+}
+
+.Home-details{
+  padding: 100px 90vh 100px 70px;
+  /* border: 1px solid white; */
+}
+
+.Home-social-icons span{
+  margin: 5px;
+}
+
+.Home-social-icons span img{
+  height: 4vmin;
+  cursor: pointer;
+}
+
+.Home-introduction{
+  font-weight: bold;
+}
+
+.Home-hello{
+  font-size: 30px;
+}
+
+.Home-name{
+  font-size: 50px;
+}
+
+.Home-and, .Home-designation{
+  font-size: 20px;
+}
+
+.Home-designation{
+  color: #0095d1;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {

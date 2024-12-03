@@ -1,16 +1,13 @@
 import React from 'react'
-import logo from '../logo_transparent.png'
+import logo from '../logo-transparent.png'
 
 const Header = () => {
+  const list = ['Home','About','Skills','Portfolio','Contact']
   return (
     <div className='Navigation'>
         <img src={logo} className="App-logo" alt="logo" />
         <ul>
-            <li><p>Home</p></li>
-            <li><p>About</p></li>
-            <li><p>Skill</p></li>
-            <li><p>Portfolio</p></li>
-            <li><p>Contact</p></li>
+          {list.map((item,key) => <li className={(key == 0) ? 'active' : ''}><p>{item}</p></li>)}
         </ul>
     </div>
   )
