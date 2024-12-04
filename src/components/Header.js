@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../logo-transparent.png'
-import navToggle from '../nav-toggle.png'
+import logo from '../images/logo-transparent.png'
+import navToggle from '../images/icons/nav-toggle.png'
 
 const Header = () => {
   const list = ['Home','About','Skills','Portfolio','Contact']

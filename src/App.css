@@ -55,7 +55,11 @@
 }
 
 .Home-details{
-  padding: 120px 120vh 100px 70px;
+  padding: 120px 100vh 150px 70px;
+  background-repeat: no-repeat;
+  background-size: 50vh 50vh;
+  background-position-x: 85%;
+  background-position-y: bottom;
   /* border: 1px solid white; */
 }
 
@@ -104,7 +108,9 @@
     display: block;
   }
   .Home-details{
-    padding: 40px 15vh 10px 10px;
+    padding: 40px 15vh 30vh 10px;
+    background-size: 35vh 35vh;
+    background-position-x: 100%;
   }
   .Home-hello{
     font-size: 15px;
@@ -135,7 +141,9 @@
     display: block;
   }
   .Home-details{
-    padding: 60px 30vh 10px 20px;
+    padding: 60px 20vh 10px 20px;
+    background-size: 35vh 35vh;
+    background-position-x: 100%;
   }
   .Home-hello{
     font-size: 18px;
@@ -166,7 +174,9 @@
     display: block;
   }
   .Home-details{
-    padding: 30px 50vh 10px 30px;
+    padding: 80px 35vh 10px 30px;
+    background-size: 35vh 35vh;
+    background-position-x: 100%;
   }
   .Home-hello{
     font-size: 20px;
@@ -197,7 +207,9 @@
     display: block;
   }
   .Home-details{
-    padding: 60px 80vh 10px 40px;
+    padding: 100px 45vh 10px 40px;
+    background-size: 45vh 45vh;
+    background-position-x: 100%;
   }
   .Home-hello{
     font-size: 20px;
@@ -216,13 +228,39 @@
   }  
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
   /* xlarge-sized screens */
   .Navigation{
     padding: 10px 50px 10px 50px;
   }
   .Home-details{
-    padding: 70px 80vh 10px 50px;
+    padding: 110px 55vh 10px 50px;
+    background-position-x: 90%;
+  }
+  .Home-hello{
+    font-size: 25px;
+  }
+  .Home-name{
+    font-size: 35px;
+  }
+  .Home-and, .Home-designation{
+    font-size: 20px;
+  }  
+  .Home-description{
+    font-size: 18px;
+  }
+  .Home-social-icons span{
+    margin: 5px;
+  }  
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  /* xxlarge-sized screens */
+  .Navigation{
+    padding: 10px 50px 10px 50px;
+  }
+  .Home-details{
+    padding: 120px 100vh 10px 50px;
   }
   .Home-hello{
     font-size: 25px;

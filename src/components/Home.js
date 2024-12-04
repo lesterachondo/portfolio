@@ -1,11 +1,15 @@
 import React from 'react'
-import fb from '../fb-logo.png'
-import linkedIn from '../linkedin-logo.png'
+import fb from '../images/icons/fb-logo.png'
+import linkedIn from '../images/icons/linkedin-logo.png'
+import homeImg from '../images/home-img.png'
 
 
 const Home = () => {
+  const detailsStyle = {
+    backgroundImage: `url(${homeImg})`,
+  }
   return (
-    <div className='Home-details'>
+    <div className='Home-details' style={ detailsStyle }>
         <p className='Home-introduction'>
             <span className='Home-hello'>Hello, It's Me</span>
             <br/>
