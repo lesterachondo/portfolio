@@ -25,16 +25,25 @@
   float: left;
   cursor: pointer;
 }
-.Navigation-inline li:hover{
+.Navigation-inline li a{
+  text-decoration: none;
+  /* color: #ffffff; */
+}
+.Navigation-inline li a:hover{
   color: #0095d1;
 }
-
 .Navigation-inline li p{
   display: block;
   text-align: center;
   padding: 16px;
   text-decoration: none;
   font-weight: 600;
+}
+.Navigation-inline li .active{
+  color: #0095d1;
+}
+.Navigation-inline li .inactive{
+  color: #ffffff;
 }
 
 .Navigation-toggle{
@@ -61,18 +70,21 @@
   font-weight: 600;
   padding: 3px 20px 3px 20px;
 }
+.Navigation-toggle-list li a{
+  text-decoration: none;
+  color: #000000;
+}
 
-.Navigation-toggle-list li:hover{
-  background-color: #081b29;
+.Navigation-toggle-list li .active{
   color: #ffffff;
 }
+.Navigation-toggle-list li .inactive{
+  color: #000000;
+}
+
 
 .Navigation-toggle-hidden {
   display: none;
-}
-
-.active{
-  color: #0095d1;
 }
 
 .toggleActive{
@@ -120,6 +132,15 @@
 
 .Home-description{
   font-size: 18px;
+}
+
+.aboutContent{
+  padding: 5vh;
+  font-size: 18px;
+}
+
+.aboutContent p{
+  text-indent: 50px;
 }
 
 @media only screen and (max-width: 380px) {
