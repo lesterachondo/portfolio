@@ -1,15 +1,23 @@
 import React from 'react'
+import '../css/About.css';
 
 const AboutDetails = () => {
   return (
     <>
       <div className='aboutContent'>
         <h2>So, who am I?</h2>
-        <p>Hello, I’m Lester, a full-stack web developer with a strong foundation in front-end and back-end development. I have hands-on experience with core web technologies like HTML, CSS, and JavaScript, and I’m passionate about creating responsive, user-friendly websites and applications.</p>
-        <p>On the front end, I’ve worked with frameworks like React, where I’ve started building dynamic user interfaces and incorporating component-based architecture to create efficient, maintainable code. I’m always looking to expand my knowledge of React and dive deeper into more advanced features like state management, hooks, and lifecycle methods.</p>
-        <p>On the back end, I have experience with server-side technologies like PHP and working with databases such as MySQL and Oracle. I’ve built several full-stack applications, handling both the client-side and server-side aspects, which has given me a solid understanding of how to structure applications and ensure smooth integration between front-end and back-end components.</p>
-        <p>I am committed to continue in learning and improving my skills, whether it’s keeping up with new features in React or mastering back-end technologies. Collaboration is important to me, and I enjoy working closely with designers and other developers to bring ideas to life. I’m always open to feedback and thrive in environments where I can contribute, learn, and grow.</p>
-        <p>Let’s connect and build something great together!</p>
+        <p>
+          I’m Lester, a full-stack web developer with expertise in both front-end and back-end development. My career began when I earned a Bachelor of Science in Computer Science from the University of Caloocan City, where I gained skills in both hardware and software.        </p>
+        <p>
+          I started my career as a field service engineer, providing technical solutions for machines like POS systems and data servers. Later, I moved into an IT engineer role in an office, where I gained experience in management and technical tasks.
+        </p>
+        <p>
+          I then transitioned to a junior web developer role, where I deepened my knowledge on core web technologies such as HTML, CSS, and JavaScript. On the front end, I worked with React to build dynamic user interfaces and learned how to create efficient, maintainable code using component-based architecture. I am eager to expand my React knowledge, particularly with advanced features like state management, hooks, and lifecycle methods.
+        </p>
+        <p>
+          On the back end, I have experience with PHP and databases like MySQL and Oracle. I’ve built full-stack applications, handling both client-side and server-side tasks, which has helped me understand how to structure applications and integrate front-end and back-end components seamlessly.
+        </p>
+        <p>I’m always looking for new challenges and opportunities to grow as a developer, and I’m excited to continue building applications that make a meaningful impact.</p>
       </div>
     </>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Home.css';
 import fb from '../images/icons/fb-logo.png'
 import linkedIn from '../images/icons/linkedin-logo.png'
 import homeImg from '../images/home-img.png'

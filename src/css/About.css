@@ -1,0 +1,14 @@
+.aboutContent p {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .aboutContent {
+        /* border: 1px solid #ffffff; */
+        max-height: 50vh;
+        overflow-y: scroll;
+    }
+    .aboutContent p{
+        font-size: 15px;
+    }  
+}

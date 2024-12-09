@@ -1,0 +1,34 @@
+.skillsContent {
+    padding: 2vh; 
+    height: 70%;   
+}
+
+.skillsContent ul li{
+    list-style-type: none;
+    float: left;
+    padding: 3vh 5vh 3vh 5vh;
+}
+
+.skillsContent ul li img {
+    width: 15vmin;
+}
+
+.skillsContent ul li progress {
+    position:relative;
+    width: 100%;
+}
+
+@media only screen and (max-width: 660px) {
+    .skillsContent {
+        overflow: scroll;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .skillsContent {
+        padding: 0;
+    }
+    .skillsContent ul li img {
+        width: 10vmin;
+    }
+}
+
