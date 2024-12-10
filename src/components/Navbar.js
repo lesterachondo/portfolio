@@ -9,10 +9,10 @@ const Navbar = ({list,activeKey}) => {
   const active = list[activeKey];
   const [toggle,setToggle] = useState(false);
   return (
-    <div className='Navigation'>
-        {/* Navigation-inline */}
-        <img src={logo} className="App-logo" alt="logo" />
-        <ul className='Navigation-inline'>
+    <div className='navigation'>
+        {/* navigation-inline */}
+        <img src={logo} className="app-logo" alt="logo" />
+        <ul className='navigation-inline'>
           {list.map((item,key) => <li key={key} >
             <Link className={(item == active) ? 'active' : 'inactive'} to={(key == 0) ? '/' : '/'+item}>
               <p>
@@ -23,9 +23,9 @@ const Navbar = ({list,activeKey}) => {
             </Link>
           </li>)}
         </ul>
-        {/* Navigation-toggle */}
-        <img src={navigationToggle} className='Navigation-toggle' onClick={()=>{setToggle(!toggle)}} />
-        <ul className={(!toggle) ? 'Navigation-toggle-hidden':'Navigation-toggle-list'} >
+        {/* navigation-toggle */}
+        <img src={navigationToggle} className='navigation-toggle' onClick={()=>{setToggle(!toggle)}} />
+        <ul className={(!toggle) ? 'navigation-toggle-hidden':'navigation-toggle-list'} >
           {list.map((item,key) => <li key={key} >
             <Link className={(item == active) ? 'active' : 'inactive'} to={(key == 0) ? '/' : '/'+item}>
               <p>

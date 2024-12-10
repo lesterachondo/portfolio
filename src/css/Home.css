@@ -1,4 +1,4 @@
-.Home-details{
+.home-details{
     padding: 120px 100vh 150px 70px;
     background-repeat: no-repeat;
     background-size: 50vh 50vh;
@@ -7,185 +7,176 @@
     /* border: 1px solid white; */
 }
 
-.Home-social-icons span{
+.home-social-icons span{
     margin: 5px;
 }
 
-.Home-social-icons span img{
+.home-social-icons span img{
     height: 4vmin;
     cursor: pointer;
 }
 
-.Home-introduction{
+.home-introduction{
     font-weight: bold;
 }
 
-.Home-hello{
+.home-hello{
     font-size: 30px;
 }
 
-.Home-name{
+.home-name{
     font-size: 50px;
 }
 
-.Home-and, .Home-designation{
+.home-and, .home-designation{
     font-size: 20px;
 }
 
-.Home-designation{
+.home-designation{
     color: #0095d1;
 }
 
-.Home-description{
+.home-description{
     font-size: 18px;
-}
-
-.aboutContent{
-    padding: 5vh;
-    font-size: 18px;
-}
-
-.aboutContent p{
-    text-indent: 50px;
 }
 
 @media only screen and (max-width: 380px) {
     /* xsmall-sized screens */
-    .Home-details{
+    .home-details{
       padding: 40px 15vh 30vh 10px;
       background-size: 35vh 35vh;
       background-position-x: 100%;
     }
-    .Home-hello{
+    .home-hello{
       font-size: 15px;
     }
-    .Home-name{
+    .home-name{
       font-size: 20px;
     }
-    .Home-and, .Home-designation{
+    .home-and, .home-designation{
       font-size: 10px;
     }  
-    .Home-description{
+    .home-description{
       font-size: 10px;
     }
-    .Home-social-icons span{
+    .home-social-icons span{
       margin: 1px;
     }  
 }
   
 @media only screen and (min-width: 380px) and (max-width: 600px) {
     /* small-sized screens */
-    .Home-details{
+    .home-details{
       padding: 60px 20vh 10px 20px;
       background-size: 35vh 35vh;
       background-position-x: 100%;
     }
-    .Home-hello{
+    .home-hello{
       font-size: 18px;
     }
-    .Home-name{
+    .home-name{
       font-size: 25px;
     }
-    .Home-and, .Home-designation{
+    .home-and, .home-designation{
       font-size: 12px;
     }  
-    .Home-description{
+    .home-description{
       font-size: 12px;
     }
-    .Home-social-icons span{
+    .home-social-icons span{
       margin: 2px;
     }  
 }
   
 @media only screen and (min-width: 600px) and (max-width: 880px) {
     /* medium-sized screens */
-    .Home-details{
+    .home-details{
       padding: 80px 35vh 10px 30px;
       background-size: 35vh 35vh;
       background-position-x: 100%;
     }
-    .Home-hello{
+    .home-hello{
       font-size: 20px;
     }
-    .Home-name{
+    .home-name{
       font-size: 25px;
     }
-    .Home-and, .Home-designation{
+    .home-and, .home-designation{
       font-size: 15px;
     }  
-    .Home-description{
+    .home-description{
       font-size: 15px;
     }
-    .Home-social-icons span{
+    .home-social-icons span{
       margin: 2px;
     }  
 }
   
 @media only screen and (min-width: 880px) and (max-width: 1024px) {
     /* large-sized screens */
-    .Home-details{
+    .home-details{
       padding: 100px 45vh 10px 40px;
       background-size: 45vh 45vh;
       background-position-x: 100%;
     }
-    .Home-hello{
+    .home-hello{
       font-size: 20px;
     }
-    .Home-name{
+    .home-name{
       font-size: 25px;
     }
-    .Home-and, .Home-designation{
+    .home-and, .home-designation{
       font-size: 15px;
     }  
-    .Home-description{
+    .home-description{
       font-size: 15px;
     }
-    .Home-social-icons span{
+    .home-social-icons span{
       margin: 2px;
     }  
 }
   
 @media only screen and (min-width: 1024px) and (max-width: 1400px) {
     /* xlarge-sized screens */
-    .Home-details{
+    .home-details{
       padding: 110px 55vh 10px 50px;
       background-position-x: 90%;
     }
-    .Home-hello{
+    .home-hello{
       font-size: 25px;
     }
-    .Home-name{
+    .home-name{
       font-size: 35px;
     }
-    .Home-and, .Home-designation{
+    .home-and, .home-designation{
       font-size: 20px;
     }  
-    .Home-description{
+    .home-description{
       font-size: 18px;
     }
-    .Home-social-icons span{
+    .home-social-icons span{
       margin: 5px;
     }  
 }
   
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     /* xxlarge-sized screens */
-    .Home-details{
+    .home-details{
       padding: 120px 100vh 10px 50px;
     }
-    .Home-hello{
+    .home-hello{
       font-size: 25px;
     }
-    .Home-name{
+    .home-name{
       font-size: 35px;
     }
-    .Home-and, .Home-designation{
+    .home-and, .home-designation{
       font-size: 20px;
     }  
-    .Home-description{
+    .home-description{
       font-size: 18px;
     }
-    .Home-social-icons span{
+    .home-social-icons span{
       margin: 5px;
     }  
 }

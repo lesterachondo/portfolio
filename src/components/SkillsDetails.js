@@ -17,18 +17,18 @@ const SkillsDetails = () => {
         { name: 'HTML', src: htmlLogo, value: 9, },
         { name: 'CSS', src: cssLogo, value: 8, },
         { name: 'Bootstrap', src: bootstrapLogo, value: 8, },
-        { name: 'Javasript', src: jsLogo, value: 9, },
-        { name: 'Jquery', src: jqueryLogo, value: 9, },
-        { name: 'React', src: reactLogo, value: 5, },
+        { name: 'Javasript', src: jsLogo, value: 7, },
+        { name: 'Jquery', src: jqueryLogo, value: 8, },
+        { name: 'React', src: reactLogo, value: 3, },
         { name: 'PHP', src: phpLogo, value: 8, },
-        { name: 'Codeigniter', src: codeigniterLogo, value: 9, },
+        { name: 'Codeigniter', src: codeigniterLogo, value: 8, },
         { name: 'Twig', src: twigLogo, value: 8, },
         { name: 'RESTful-API', src: restapiLogo, value: 8, },
         { name: 'MySQL', src: mysqlLogo, value: 8, },
     ];
   return (
     <>
-        <div className='skillsContent'>
+        <div className='skills-content'>
             <ul>
                 {frontendList.map( (item) => <li><img src={item.src} /> <progress value={item.value} max="10"></progress> <center><strong>{item.value}0%</strong></center> </li> )}
             </ul>

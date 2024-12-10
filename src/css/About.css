@@ -1,14 +1,22 @@
-.aboutContent p {
+.about-content p {
+    font-size: 18px;
+}
+.about-content{
+    padding: 5vh;
     font-size: 18px;
 }
 
+.about-content p{
+    text-indent: 50px;
+}
+
 @media only screen and (max-width: 1024px) {
-    .aboutContent {
+    .about-content {
         /* border: 1px solid #ffffff; */
         max-height: 50vh;
         overflow-y: scroll;
     }
-    .aboutContent p{
+    .about-content p{
         font-size: 15px;
     }  
 }
