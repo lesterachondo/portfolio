@@ -27,7 +27,7 @@ const SkillsDetails = () => {
     ];
   return (
     <>
-        <div className='px-12 2xl:px-24 py-10 2xl:py-20 h-3/5 2xl:h-4/5 overflow-y-scroll 2xl:overflow-y-auto'>
+        <div className='px-12 2xl:px-24 py-10 2xl:py-8 h-3/5 2xl:h-4/6 overflow-y-scroll 2xl:overflow-y-auto'>
             <ul className='content-center'>
                 {frontendList.map(
                     (item) => <li className='list-none float-left px-12 py-4 content-center'>

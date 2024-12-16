@@ -31,7 +31,7 @@ const Introduction = () => {
     <>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 h-4/5'>
           <div className='order-last md:order-first'>
-            <p className='px-12 pt-2 md:pt-16 lg:pt-10 xl:pt-20 2xl:pt-48 font-bold'>
+            <p className='px-12 pt-2 md:pt-16 lg:pt-10 xl:pt-20 2xl:pt-32 font-bold'>
                 <span className='text-xl md:text-2xl lg:text-3xl'>{detailsData.hello}</span>
                 <br/>
                 <span className='text-2xl md:text-4xl lg:text-5xl'>{detailsData.name}</span>

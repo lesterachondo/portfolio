@@ -23,9 +23,9 @@ const AboutDetails = () => {
   }
   return (
     <>
-      <div className='px-6 sm:px-12 py-0 2xl:my-20 2xl:py-12 max-h-96 overflow-y-auto lg:overflow-y-hidden'>
-        <p className='text-sm 2xl:text-4xl font-bold md:pt-4 2xl:pt-10 pb-2 2xl:pb-10'>{details.header}</p>
-        {details.paragraphs.map((item) => <p className='text-sm 2xl:text-xl'>{item.content}</p>)}
+      <div className='px-6 sm:px-12 py-0 2xl:py-10 max-h-96 overflow-y-auto lg:overflow-y-hidden'>
+        <p className='text-sm 2xl:text-2xl font-bold md:pt-4 2xl:pt-10 pb-2 2xl:pb-10'>{details.header}</p>
+        {details.paragraphs.map((item) => <p className='text-sm 2xl:text-lg'>{item.content}</p>)}
       </div>
     </>
   )
