@@ -23,7 +23,12 @@ const AboutDetails = () => {
   }
   return (
     <>
-      <div className='px-6 sm:px-12 py-0 2xl:py-4 max-h-96 overflow-y-auto lg:overflow-y-hidden'>
+      <div className='px-6 sm:px-12 py-0 2xl:py-4 max-h-96 overflow-y-auto lg:overflow-y-hidden
+        [&::-webkit-scrollbar]:w-2 
+        [&::-webkit-scrollbar-track]:bg-gray-100 
+        [&::-webkit-scrollbar-thumb]:bg-active 
+        dark:[&::-webkit-scrollbar-track]:bg-neutral-700 
+        dark:[&::-webkit-scrollbar-thumb]:bg-active' >
         <p className='text-sm 2xl:text-2xl font-bold md:pt-4 2xl:pt-8 pb-2 2xl:pb-6'>{details.header}</p>
         {details.paragraphs.map((item) => <p className='text-sm 2xl:text-lg indent-16 pb-2'>{item.content}</p>)}
       </div>

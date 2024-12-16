@@ -27,7 +27,12 @@ const SkillsDetails = () => {
     ];
   return (
     <>
-        <div className='px-12 2xl:px-16 py-10 2xl:py-8 h-3/5 2xl:h-4/6 overflow-y-scroll 2xl:overflow-y-auto'>
+        <div className='px-12 2xl:px-16 py-10 2xl:py-8 h-3/5 2xl:h-4/6 overflow-y-scroll 2xl:overflow-y-auto 
+            [&::-webkit-scrollbar]:w-2 
+            [&::-webkit-scrollbar-track]:bg-gray-100 
+            [&::-webkit-scrollbar-thumb]:bg-active 
+            dark:[&::-webkit-scrollbar-track]:bg-neutral-700 
+            dark:[&::-webkit-scrollbar-thumb]:bg-active' >
             <ul className='content-center'>
                 {frontendList.map(
                     (item) => <li className='list-none float-left px-12 py-4 content-center'>
