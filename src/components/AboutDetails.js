@@ -23,7 +23,7 @@ const AboutDetails = () => {
   }
   return (
     <>
-      <div className='px-6 sm:px-12 py-0 2xl:py-4 max-h-96 overflow-y-auto lg:overflow-y-hidden
+      <div className='px-6 sm:px-12 py-0 2xl:py-4 h-3/5 2xl:h-4/6 overflow-y-auto lg:overflow-y-hidden
         [&::-webkit-scrollbar]:w-2 
         [&::-webkit-scrollbar-track]:bg-gray-100 
         [&::-webkit-scrollbar-thumb]:bg-active 

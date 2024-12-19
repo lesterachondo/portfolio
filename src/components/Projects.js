@@ -35,12 +35,12 @@ const Projects = () => {
             dark:[&::-webkit-scrollbar-thumb]:bg-active' >
             <ul>
                 {details.map(
-                    (item) => <li className='p-6 '>
+                    (item) => <li className='p-6'>
                         <div className='flex flex-col 2xl:flex-row'>
                             <div className='w-full 2xl:w-1/2'>
                                 <a href={item.link}><img src={item.src} className='w-full'/></a>
                             </div>
-                            <div className='w-full 2xl:w-1/2 px-6 py-12'>
+                            <div className='w-full 2xl:w-1/2 px-6 py-2'>
                                 <label className='font-extrabold text-lg 2xl:text-2xl text-active'>{item.name}</label>
                                 <p className='text-sm 2xl:text-lg my-4'>{item.description}</p>
                                 <label className='text-sm 2xl:text-lg'>Technology Used:</label>

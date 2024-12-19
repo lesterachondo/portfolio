@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
+import Footer from '../components/Footer';
 
 const Portfolio = (props) => {
   const activeKey = 3;
@@ -8,6 +9,7 @@ const Portfolio = (props) => {
     <>
         <Navbar list={props.list} activeKey={activeKey} />
         <Projects />
+        <Footer />
     </>
   )
 }
