@@ -3,6 +3,7 @@ import htmlLogo from '../images/icons/html-logo.png'
 import cssLogo from '../images/icons/css-logo.png'
 import jsLogo from '../images/icons/js-logo.png'
 import bootstrapLogo from '../images/icons/bootstrap-logo.png'
+import tailwindLogo from '../images/icons/tailwind-logo.png'
 import reactLogo from '../images/icons/react-logo.png'
 import jqueryLogo from '../images/icons/jquery-logo.png'
 import codeigniterLogo from '../images/icons/codeigniter-logo.png'
@@ -16,6 +17,7 @@ const SkillsDetails = () => {
         { name: 'HTML', src: htmlLogo, value: 90, width: 'w-11/12', },
         { name: 'CSS', src: cssLogo, value: 80, width: 'w-10/12', },
         { name: 'Bootstrap', src: bootstrapLogo, value: 80, width: 'w-10/12', },
+        { name: 'Tailwind', src: tailwindLogo, value: 30, width: 'w-4/12', },
         { name: 'Javasript', src: jsLogo, value: 70, width: 'w-9/12', },
         { name: 'Jquery', src: jqueryLogo, value: 80, width: 'w-10/12', },
         { name: 'React', src: reactLogo, value: 30, width: 'w-4/12', },
