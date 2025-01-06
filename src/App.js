@@ -6,7 +6,7 @@ import Portfolio from './routes/Portfolio';
 import Contact from './routes/Contact';
 
 function App() {
-  const navList = ['home','about','skills','portfolio','contact']
+  const navList = ['home','about','skills','portfolio']
   return (
     <>
       <main>
@@ -15,7 +15,7 @@ function App() {
         <Route path={ '/' + navList[1] } element={<About list={navList} />} />
         <Route path={ '/' + navList[2] } element={<Skills list={navList} />} />
         <Route path={ '/' + navList[3] } element={<Portfolio list={navList} />} />
-        <Route path={ '/' + navList[4] } element={<Contact list={navList} />} />
+        {/* <Route path={ '/' + navList[4] } element={<Contact list={navList} />} /> */}
       </Routes>
       </main>
     </>
