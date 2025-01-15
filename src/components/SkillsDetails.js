@@ -7,6 +7,7 @@ import tailwindLogo from '../images/icons/tailwind-logo.png'
 import reactLogo from '../images/icons/react-logo.png'
 import jqueryLogo from '../images/icons/jquery-logo.png'
 import codeigniterLogo from '../images/icons/codeigniter-logo.png'
+import laravelLogo from '../images/icons/laravel-logo.png'
 import phpLogo from '../images/icons/php-logo.png'
 import restapiLogo from '../images/icons/restapi-logo.png'
 import twigLogo from '../images/icons/twig-logo.png'
@@ -23,6 +24,7 @@ const SkillsDetails = () => {
         { name: 'React', src: reactLogo, value: 30, width: 'w-4/12', },
         { name: 'PHP', src: phpLogo, value: 80, width: 'w-10/12', },
         { name: 'Codeigniter', src: codeigniterLogo, value: 80, width: 'w-10/12', },
+        { name: 'Laravel', src: laravelLogo, value: 25, width: 'w-3/12', },
         { name: 'Twig', src: twigLogo, value: 80, width: 'w-10/12', },
         { name: 'RESTful-API', src: restapiLogo, value: 80, width: 'w-10/12', },
         { name: 'MySQL', src: mysqlLogo, value: 80, width: 'w-10/12', },
