@@ -19,7 +19,7 @@ const Navbar = ({list,activeKey}) => {
           <ul className='m-0 p-1.5 list-none float-right hidden lg:block'>
             {list.map((item,key) => <li key={key} className='px-4 py-7 float-left cursor-pointer no-underline'>
               <Link className={(item == active) ? 'text-active' : 'text-white hover:text-active'} to={(key == 0) ? '/' : '/'+item}>
-                <p className='font-semibold'>
+                <p className='font-semibold text-sm'>
                   {item.replace(/\b[a-z]/g, (letter) => {
                     return letter.toUpperCase();
                   })}
@@ -37,7 +37,7 @@ const Navbar = ({list,activeKey}) => {
         <ul className={(!toggle) ? 'hidden':'block lg:hidden absolute left-1/4 md:left-1/2 ml-16'} >
           {list.map((item,key) => <li key={key} className='pl-5 pr-12 md:pr-20 py-2 bg-active cursor-pointer no-underline text-left'>
             <Link className={(item == active) ? 'text-white' : 'text-black'} to={(key == 0) ? '/' : '/'+item}>
-              <p className='font-semibold'>
+              <p className='font-semibold text-sm'>
                 {item.replace(/\b[a-z]/g, (letter) => {
                   return letter.toUpperCase();
                 })}

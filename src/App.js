@@ -3,7 +3,7 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Skills from './routes/Skills';
 import Portfolio from './routes/Portfolio';
-import Contact from './routes/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const navList = ['home','about','skills','portfolio']
@@ -17,6 +17,7 @@ function App() {
         <Route path={ '/' + navList[3] } element={<Portfolio list={navList} />} />
         {/* <Route path={ '/' + navList[4] } element={<Contact list={navList} />} /> */}
       </Routes>
+      <Footer />
       </main>
     </>
   );

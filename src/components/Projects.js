@@ -27,7 +27,7 @@ const Projects = () => {
     ]
   return (
     <>
-        <div className='w-full  h-3/5 2xl:h-4/6 p-6 overflow-y-scroll 2xl:overflow-y-auto 
+        <div className='w-full px-6 my-0 xl:my-0 2xl:my-4 h-2/3 lg:h-3/5 xl:h-4/6 2xl:h-4/6 overflow-y-scroll 2xl:overflow-y-auto 
             [&::-webkit-scrollbar]:w-2 
             [&::-webkit-scrollbar-track]:bg-gray-100 
             [&::-webkit-scrollbar-thumb]:bg-active 

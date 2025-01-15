@@ -24,7 +24,7 @@ const AboutDetails = () => {
   return (
     <>
       <div 
-        className='px-6 sm:px-12 py-0 2xl:py-2 my-0 xl:my-2 2xl:my-4 h-4/5 xl:h-5/6 2xl:h-4/6 overflow-y-auto
+        className='px-6 sm:px-12 py-0 2xl:py-2 my-0 xl:my-0 2xl:my-4 h-2/3 lg:h-3/5 xl:h-4/6 2xl:h-4/6 overflow-y-auto
           [&::-webkit-scrollbar]:w-2 
           [&::-webkit-scrollbar-track]:bg-gray-100 
           [&::-webkit-scrollbar-thumb]:bg-active 

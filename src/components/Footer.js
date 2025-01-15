@@ -5,7 +5,7 @@ import tailwindLogo from '../images/icons/tailwind-logo.png'
 const Footer = () => {
   return (
     <>
-        <div className='w-full h-24 content-end'>
+        <div className='w-full mt-40 lg:mt-24 h-2 content-end'>
             <div className='flex flex-row justify-center'>
                 <span className='content-center px-2 text-xs 2xl:text-sm'>This page is powered by:</span>
                 <img src={reactLogo} className='w-6 2xl:w-8 2xl:mx-2'/>
